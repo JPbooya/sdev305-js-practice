@@ -5,6 +5,7 @@ function findLargest(array) {
    array.forEach(function(element) {
 
     if (element > max) {
+      // update
       max = element;
     }
   });

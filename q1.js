@@ -4,6 +4,7 @@ function sumArray(array) {
   let sum = 0;
 
   array.forEach(function(element) {
+    // adds element value to sum 
     sum += element;
   });
     return sum;
